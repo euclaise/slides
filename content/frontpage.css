@@ -1,0 +1,35 @@
+body {
+    background-image: url("blueprint-final.png");
+    background-size: 500px;
+
+    background-repeat: repeat;
+    background-attachment: fixed;
+    
+    font-weight: normal;
+    font-style: normal;
+	font-family: Helvetica, sans-serif;
+	font-size: 15pt;
+}
+
+#parent {
+    padding: 3.6pt;
+}
+
+.child {
+    background-color: white;
+    
+    margin:2vw;
+    margin-top: 2vh;
+    margin-bottom: 20vh;
+    height: 73vh;
+
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    line-height: 24pt;
+    
+    -moz-box-shadow: 0 0 3px 1.5px #888;
+    -webkit-box-shadow: 0 0 3px 1.5px #888;
+    box-shadow: 0 0 3px 1.5px #888;
+}
